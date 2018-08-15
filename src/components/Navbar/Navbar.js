@@ -2,6 +2,8 @@ import React from 'react';
 import styled from 'styled-components';
 import Headroom from 'react-headroom';
 import { shadow } from '../../styles/utils/shadow.js';
+
+import { Link } from 'react-scroll';
 const StyledNavbar = styled.ul`
   list-style: none;
   display: flex;
@@ -13,18 +15,27 @@ const StyledNavbar = styled.ul`
   width: 100%;
   ${shadow};
 
-  > li {
+  > a {
     width: 40px;
     margin-right: 20px;
+    cursor: pointer;
   }
 `;
 
 const Navbar = () => (
   <Headroom>
     <StyledNavbar>
-      <li>About</li>
-      <li>Works</li>
-      <li>Personal</li>
+      <Link to="about" smooth={true} offset={-10} duration={200} spy={true}>
+        <li>About</li>
+      </Link>
+
+      <Link to="skills" smooth={true} offset={-25} duration={200} spy={true}>
+        <li>Skills</li>
+      </Link>
+
+      <Link to="projects" smooth={true} offset={-5} duration={200} spy={true}>
+        <li>Projects</li>
+      </Link>
     </StyledNavbar>
   </Headroom>
 );
