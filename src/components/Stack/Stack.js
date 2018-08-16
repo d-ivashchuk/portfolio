@@ -15,6 +15,8 @@ import react from '../../assets/technologies/react.svg';
 import redux from '../../assets/technologies/redux.svg';
 import webpack from '../../assets/technologies/webpack.svg';
 import gatsby from '../../assets/technologies/gatsby.svg';
+import graphql from '../../assets/technologies/graphql.svg';
+import npm from '../../assets/technologies/npm.svg';
 
 const StyledStack = styled.div`
   display: flex;
@@ -51,7 +53,7 @@ const Stack = () => (
   <Element name="skills">
     <StyledStack>
       <StyledStackDivision>
-        <h1>Front-end technologies I use</h1>
+        <h1>Front-end skills</h1>
         <Hr />
         <StyledTechnologies>
           <Icon src={html} height="70px" width="70px" />
@@ -68,6 +70,7 @@ const Stack = () => (
         <StyledTechnologies>
           <Icon src={firebase} height="70px" width="70px" />
           <Icon src={node} height="70px" width="70px" />
+          <Icon src={graphql} height="70px" width="70px" />
         </StyledTechnologies>
       </StyledStackDivision>
       <StyledStackDivision>
@@ -77,6 +80,7 @@ const Stack = () => (
           <Icon src={git} height="70px" width="70px" />
           <Icon src={github} height="70px" width="70px" />
           <Icon src={webpack} height="70px" width="70px" />
+          <Icon src={npm} height="70px" width="70px" />
         </StyledTechnologies>
       </StyledStackDivision>
     </StyledStack>

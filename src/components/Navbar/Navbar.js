@@ -19,6 +19,9 @@ const StyledNavbar = styled.ul`
     width: 40px;
     margin-right: 20px;
     cursor: pointer;
+    &:hover {
+      color: #ccc;
+    }
   }
 `;
 

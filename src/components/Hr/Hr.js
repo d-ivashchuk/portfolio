@@ -7,9 +7,9 @@ const StyledHr = styled.hr`
   margin: 5px auto 20px auto;
   background-image: linear-gradient(
     to right,
-    rgba(0, 0, 0, 0),
+    rgba(255, 255, 255, 0.001),
     white,
-    rgba(0, 0, 0, 0)
+    rgba(255, 255, 255, 0.001)
   );
   width: 50%;
 `;

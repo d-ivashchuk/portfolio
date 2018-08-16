@@ -27,7 +27,7 @@ const Projects = () => (
         authentication, real-time database, state-management by firease."
         github="http://github.com/d-ivashchuk/pet-dashboard"
         live="https://d-ivashchuk.github.io/pet-dashboard/"
-        tech="react">
+      tech="react">
         <Icon src={react} height="50px" width="50px" />
         <Icon src={firebase} height="50px" width="50px" />
       </Project>
@@ -35,7 +35,7 @@ const Projects = () => (
         title="firebase-app"
         description="SPA that I use to start a project with a firebase."
         github="http://github.com/d-ivashchuk/firebaseApp"
-        live="https://d-ivashchuk.github.io/firebaseApp/">
+      live="https://d-ivashchuk.github.io/firebaseApp/">
         <Icon src={react} height="50px" width="50px" />
         <Icon src={firebase} height="50px" width="50px" />
       </Project>
@@ -43,14 +43,14 @@ const Projects = () => (
         title="irreg.io"
         description="SPA written in mostly vanilla javascript that helps to learn german and english irregular verbs"
         github="https://github.com/d-ivashchuk/irreg.io"
-        live="https://d-ivashchuk.github.io/irreg.io">
+      live="https://d-ivashchuk.github.io/irreg.io">
         <Icon src={javascript} height="50px" width="50px" />
       </Project>
       <Project
         title="This portfolio"
         description="The code for the portfolio you are currently browsing!"
         github="https://github.com/d-ivashchuk/portfolio"
-        live="https://d-ivashchuk.github.io/portfolio">
+      live="https://d-ivashchuk.github.io/portfolio">
         <Icon src={react} height="50px" width="50px" />
       </Project>
     </StyledProjects>

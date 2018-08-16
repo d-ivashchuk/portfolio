@@ -45,8 +45,6 @@ const Wrapper = styled.div`
 `;
 
 const Project = props => {
-  console.log(props.tech);
-
   return (
     <StyledProjectCard>
       <h2>{props.title}</h2>

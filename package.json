@@ -2,7 +2,9 @@
   "name": "portfolio",
   "version": "0.1.0",
   "private": true,
+  "homepage": "https://d-ivashchuk.github.io/portfolio/",
   "dependencies": {
+    "gh-pages": "^1.2.0",
     "react": "^16.4.2",
     "react-dom": "^16.4.2",
     "react-headroom": "^2.2.2",
@@ -15,6 +17,8 @@
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test --env=jsdom",
-    "eject": "react-scripts eject"
+    "eject": "react-scripts eject",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build"
   }
 }
