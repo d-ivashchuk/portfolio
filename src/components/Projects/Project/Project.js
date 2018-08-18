@@ -9,6 +9,7 @@ const StyledProjectCard = styled.div`
   height: 300px;
   background: white;
   margin: auto;
+  border-radius: 2px;
   ${shadow};
   > h2 {
     padding: 15px;

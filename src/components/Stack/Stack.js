@@ -1,8 +1,8 @@
 import React from 'react';
 import styled from 'styled-components';
 import { Element } from 'react-scroll';
-import Icon from '../Icon/Icon.js';
-import Hr from '../Hr/Hr.js';
+import Icon from '../Ui/Icon/Icon.js';
+import Hr from '../Ui/Hr/Hr.js';
 
 import css from '../../assets/technologies/css3.svg';
 import firebase from '../../assets/technologies/firebase.svg';
