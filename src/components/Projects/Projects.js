@@ -32,6 +32,15 @@ const Projects = () => (
         <Icon src={firebase} height="50px" width="50px" />
       </Project>
       <Project
+        title="clash"
+        description="SPA for voting on popular brand duels on the web that offers minimalistic interface and real-time updates of the current voting situation."
+        github="http://github.com/d-ivashchuk/clash"
+        live="https://d-ivashchuk.github.io/clash/"
+        tech="react">
+        <Icon src={react} height="50px" width="50px" />
+        <Icon src={firebase} height="50px" width="50px" />
+      </Project>
+      <Project
         title="firebase-app"
         description="SPA that I use to start a project with a firebase."
         github="http://github.com/d-ivashchuk/firebaseApp"
