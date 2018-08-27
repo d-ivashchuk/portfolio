@@ -33,7 +33,7 @@ const Projects = () => (
       </Project>
       <Project
         title="clash"
-        description="SPA for voting on popular brand duels on the web that offers minimalistic interface and real-time updates of the current voting situation."
+        description="SPA for voting on popular brand duels on the web that offers minimalistic interface and real-time updates of current votes."
         github="http://github.com/d-ivashchuk/clash"
         live="https://d-ivashchuk.github.io/clash/"
         tech="react">
