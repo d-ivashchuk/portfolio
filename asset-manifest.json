@@ -1,6 +1,6 @@
 {
-  "main.js": "static/js/main.94a63b3e.js",
-  "main.js.map": "static/js/main.94a63b3e.js.map",
+  "main.js": "static/js/main.28f4434f.js",
+  "main.js.map": "static/js/main.28f4434f.js.map",
   "static/media/bg.svg": "static/media/bg.a791b152.svg",
   "static/media/css3.svg": "static/media/css3.549a6229.svg",
   "static/media/firebase-colored.svg": "static/media/firebase-colored.d1842f48.svg",
@@ -10,7 +10,6 @@
   "static/media/github.svg": "static/media/github.ff539b9a.svg",
   "static/media/graphql.svg": "static/media/graphql.95b7b0f1.svg",
   "static/media/html5.svg": "static/media/html5.d84af59a.svg",
-  "static/media/javascript-colored.svg": "static/media/javascript-colored.f90aacb1.svg",
   "static/media/javascript.svg": "static/media/javascript.a2353fc4.svg",
   "static/media/jest.svg": "static/media/jest.29f543bc.svg",
   "static/media/node-dot-js.svg": "static/media/node-dot-js.86579c7f.svg",
