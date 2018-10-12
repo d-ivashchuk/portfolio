@@ -22,7 +22,7 @@ const Projects = () => (
     <StyledProjects>
       <Project
         title="irreg.io"
-        description="SPA written in react that helps to learn german and english irregular verbs"
+        description="SPA written in react that helps to learn irregularities of languages"
         github="https://github.com/d-ivashchuk/irregio-react"
         live="https://d-ivashchuk.github.io/irregio-react"
       >
