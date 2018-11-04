@@ -6,6 +6,8 @@ import { Element } from "react-scroll";
 
 import react from "../../assets/technologies/react-colored.svg";
 import firebase from "../../assets/technologies/firebase-colored.svg";
+import gatsby from "../../assets/technologies/gatsby-colored.svg";
+import graphql from "../../assets/technologies/graphql.1.svg";
 
 const StyledProjects = styled.div`
   max-width: 700px;
@@ -27,6 +29,16 @@ const Projects = () => (
         live="https://d-ivashchuk.github.io/irregio-react"
       >
         <Icon src={react} height="50px" width="50px" />
+      </Project>
+      <Project
+        title="personal blog"
+        description="Gatsby blog with custom page transitions and graphCMS integration"
+        github="https://github.com/d-ivashchuk/ivashchuk-blog/"
+        live="https://d-ivashchuk.github.io/ivashchuk-blog/"
+      >
+        <Icon src={react} height="50px" width="50px" />
+        <Icon src={gatsby} height="50px" width="50px" />
+        <Icon src={graphql} height="50px" width="50px" />
       </Project>
       <Project
         title="pet-dashboard"
