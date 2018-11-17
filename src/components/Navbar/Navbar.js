@@ -5,6 +5,7 @@ import { shadow } from '../../styles/utils/shadow.js';
 
 import { Link } from 'react-scroll';
 const StyledNavbar = styled.ul`
+  color: rgba(80, 89, 113, 0.7);
   list-style: none;
   display: flex;
   flex-direction: row;
@@ -16,12 +17,18 @@ const StyledNavbar = styled.ul`
   ${shadow};
 
   > a {
-    width: 40px;
+    font-size:18px;
     margin-right: 20px;
     cursor: pointer;
-    &:hover {
-      color: #ccc;
-    }
+    background: linear-gradient(to bottom, transparent 62%, #FFEB3B 0) center center/0% 75% no-repeat;
+    cursor: pointer;
+    color: rgba(80, 89, 113, 0.7);
+    transition: all .4s ease;
+  &:hover {
+    color: #007acc;
+    background-size: 100% 100%;
+    transition: all .4s ease;
+  }
   }
 `;
 

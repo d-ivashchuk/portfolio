@@ -3,6 +3,7 @@ import styled from 'styled-components';
 import { Element } from 'react-scroll';
 
 const StyledAbout = styled.div`
+font-size:18px;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -11,12 +12,8 @@ const StyledAbout = styled.div`
   padding: 20px;
   background: white;
   margin: 0 auto 10px auto;
-
-  h1 {
-    color: grey;
-  }
   p {
-    color: #665;
+    color: rgba(80, 89, 113, 0.7);
   }
 `;
 

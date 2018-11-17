@@ -28,9 +28,11 @@ const StyledLiveLink = styled.a`
   letter-spacing: 1px;
   color: #ccc;
   text-decoration: none;
+  transition:all 2s cubic-bezier(0.075, 0.82, 0.165, 1);
   &:hover {
     color: red;
     cursor: pointer;
+    transition:color 3s cubic-bezier(0.075, 0.82, 0.165, 1);
   }
 `;
 const Wrapper = styled.div`

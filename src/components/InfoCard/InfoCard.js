@@ -60,6 +60,9 @@ const StyledInfo = styled.section`
     right: 0;
     width: 56.25%;
   }
+  h2{
+    color: rgba(80, 89, 113, 0.7);
+  }
 `;
 const SocialWrapper = styled.div`
   display: flex;
@@ -67,6 +70,22 @@ const SocialWrapper = styled.div`
     margin: 5px;
   }
 `;
+
+const StyledBlogLink = styled.a`
+    margin-top:20px;
+    font-size:24px;
+    text-decoration:none;
+    transition: all .4s ease;
+    background: linear-gradient(to bottom, transparent 62%, #FFEB3B 0) center center/0% 75% no-repeat;
+    padding: 0 12px 4px 12px;
+    cursor: pointer;
+    color: rgba(80, 89, 113, 0.7);
+  &:hover {
+    color: #007acc;
+    transition: all .4s ease;
+    background-size: 100% 100%;
+  }
+`
 
 const InfoCard = () => (
   <StyledInfoCard>
@@ -82,6 +101,7 @@ const InfoCard = () => (
         <SocialIcon url="http://github.com/d-ivashchuk" />
         <SocialIcon url="https://stackoverflow.com/users/9318563/dimitry-ivashchuk?tab=profile" />
       </SocialWrapper>
+      <StyledBlogLink href="https://divdev.io/" target="_blank"><span role='img' aria-label='fire'>🔥</span> Blog <span role='img' aria-label='fire'>🔥</span></StyledBlogLink>
     </StyledInfo>
   </StyledInfoCard>
 );
