@@ -15,6 +15,21 @@ font-size:18px;
   p {
     color: rgba(80, 89, 113, 0.7);
   }
+  a {
+    color:#007acc !important;
+    text-decoration:none;
+    font-size:18px;
+    cursor: pointer;
+    background: linear-gradient(to bottom, transparent 62%, #FFEB3B 0) center center/0% 75% no-repeat;
+    cursor: pointer;
+    color: rgba(80, 89, 113, 0.7);
+    transition: all .4s ease;
+  &:hover {
+    color: #007acc;
+    background-size: 100% 100%;
+    transition: all .4s ease;
+  }
+  }
 `;
 
 const StyledHr = styled.hr`
@@ -35,13 +50,20 @@ const About = () => (
     <StyledAbout>
       <h1>About</h1>
       <StyledHr />
-      <p>
-        I am passionate developer from Ukraine who loves to work with modern
-        technologies and learn something new everyday. Currently my main point
-        of expertise is front-end development with a heavy focus on SPA built
-        with React.js. I also learn back-end to be able to deliver full-stack
-        products, at this moment I am fluent with Firebase.
-      </p>
+      <div>
+        <p>
+          I am 🔥 developer from 🇺🇦Ukraine who loves to work with modern
+          technologies and learn something new everyday. Currently my main point
+          of expertise is front-end development with a heavy focus on SPAs built
+          with ⚛️React.
+        </p>
+        <br />
+        <p>
+          I am happy to share my knowledge with the community so I write about things I
+          learn 📔<a href="https://www.divdev.io">here</a> and produce video tutorials as a proud instructor at 🥚👨‍🏫<a href="https://www.egghead.io">egghead.io</a>
+        </p>
+
+      </div>
     </StyledAbout>
   </Element>
 );
