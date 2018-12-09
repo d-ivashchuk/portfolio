@@ -33,7 +33,7 @@ const StyledStack = styled.div`
 const StyledStackDivision = styled.div`
   margin-bottom: 20px;
   > h1 {
-    color: white;
+    color: white !important;
     margin-bottom: 10px;
   }
   > img {

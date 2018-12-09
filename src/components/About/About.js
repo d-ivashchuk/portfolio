@@ -3,6 +3,9 @@ import styled from 'styled-components';
 import { Element } from 'react-scroll';
 
 const StyledAbout = styled.div`
+h1{
+  color: rgba(0, 0, 0, 0.65);
+}
 font-size:18px;
   display: flex;
   flex-direction: column;
@@ -14,6 +17,7 @@ font-size:18px;
   margin: 0 auto 10px auto;
   p {
     color: rgba(80, 89, 113, 0.7);
+    line-height:140%;
   }
   a {
     color:#007acc !important;
@@ -39,7 +43,7 @@ const StyledHr = styled.hr`
   background-image: linear-gradient(
     to right,
     rgba(0, 0, 0, 0),
-    rgba(0, 0, 0, 0.75),
+    rgba(0, 0, 0, 0.65),
     rgba(0, 0, 0, 0)
   );
   width: 50%;

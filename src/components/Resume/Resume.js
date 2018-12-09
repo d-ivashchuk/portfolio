@@ -64,7 +64,7 @@ const StyledPulse = styled.div`
 
 const Resume = () => (
   <StyledResume>
-    <h1>Resume</h1>
+    <h1>CV</h1>
 
     <a
       href="https://standardresume.co/divashchuk"

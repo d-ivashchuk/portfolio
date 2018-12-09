@@ -4,6 +4,9 @@ import profilePic from '../../assets/profile-picture.jpeg';
 import { SocialIcon } from 'react-social-icons';
 
 const StyledInfoCard = styled.div`
+  h1{
+  color: rgba(0, 0, 0, 0.65);
+  }
   margin: 10px auto 10px auto;
   position: relative;
   width: 100%;
@@ -66,8 +69,18 @@ const StyledInfo = styled.section`
 `;
 const SocialWrapper = styled.div`
   display: flex;
-  > a {
+  margin-top:5px;
+   a {
     margin: 5px;
+    background:none;
+    margin-right:5px;
+    opacity:0.8;
+    transition: all 0.4s ease 0s;
+    &:hover{
+      transition: all 0.4s ease 0s;
+        transform:scale(1.1);
+        opacity:1;
+    }
   }
 `;
 
@@ -86,6 +99,11 @@ const StyledBlogLink = styled.a`
     background-size: 100% 100%;
   }
 `
+const StlyedCompany = styled.span`
+
+font-size:14px;
+font-weight:300;
+`
 
 const InfoCard = () => (
   <StyledInfoCard>
@@ -94,12 +112,14 @@ const InfoCard = () => (
     <StyledInfo>
       <h1>Dimitri</h1>
       <h1>Ivashchuk</h1>
-      <h2>Front-end engineer</h2>
+      <h2>Front-end engineer <br /> <StlyedCompany>@CubeTech</StlyedCompany></h2>
       <h2>Vienna, Austria</h2>
       <SocialWrapper>
         <SocialIcon url="http://twitter.com/ivashchukD" />
+        <SocialIcon url="https://medium.com/@dimaiv" />
         <SocialIcon url="http://github.com/d-ivashchuk" />
         <SocialIcon url="https://stackoverflow.com/users/9318563/dimitry-ivashchuk?tab=profile" />
+
       </SocialWrapper>
       <StyledBlogLink href="https://divdev.io/" target="_blank"><span role='img' aria-label='fire'>🔥</span> Blog <span role='img' aria-label='fire'>🔥</span></StyledBlogLink>
     </StyledInfo>

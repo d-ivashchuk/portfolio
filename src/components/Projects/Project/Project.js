@@ -39,10 +39,20 @@ const Wrapper = styled.div`
   display: flex;
   align-items: center;
   justify-content: center;
-  > a {
+  a {
     margin: 10px;
+    margin: 5px;
+    background:none;
+    margin-right:5px;
+    opacity:0.8;
+    transition: all 0.4s ease 0s;
+    &:hover{
+      transition: all 0.4s ease 0s;
+        transform:scale(1.1);
+        opacity:1;
+    }
   }
-  > img {
+  img {
     margin: 10px;
   }
 `;
