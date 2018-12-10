@@ -1,6 +1,6 @@
 {
-  "main.js": "static/js/main.98ccfd6a.js",
-  "main.js.map": "static/js/main.98ccfd6a.js.map",
+  "main.js": "static/js/main.c7cfccb6.js",
+  "main.js.map": "static/js/main.c7cfccb6.js.map",
   "static/media/bg.svg": "static/media/bg.a791b152.svg",
   "static/media/css3.svg": "static/media/css3.549a6229.svg",
   "static/media/firebase-colored.svg": "static/media/firebase-colored.d1842f48.svg",
@@ -14,11 +14,13 @@
   "static/media/html5.svg": "static/media/html5.d84af59a.svg",
   "static/media/javascript.svg": "static/media/javascript.a2353fc4.svg",
   "static/media/jest.svg": "static/media/jest.29f543bc.svg",
+  "static/media/netlify.svg": "static/media/netlify.bdc63c82.svg",
   "static/media/node-dot-js.svg": "static/media/node-dot-js.86579c7f.svg",
   "static/media/npm.svg": "static/media/npm.2a9af637.svg",
   "static/media/profile-picture.jpeg": "static/media/profile-picture.eb92e734.jpeg",
   "static/media/react-colored.svg": "static/media/react-colored.57f85b0f.svg",
   "static/media/react.svg": "static/media/react.41a1ccf8.svg",
   "static/media/redux.svg": "static/media/redux.16f98df2.svg",
+  "static/media/vscode.svg": "static/media/vscode.28258949.svg",
   "static/media/webpack.svg": "static/media/webpack.a19d580b.svg"
 }
