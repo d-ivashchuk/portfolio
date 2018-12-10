@@ -18,6 +18,8 @@ import gatsby from '../../assets/technologies/gatsby.svg';
 import graphql from '../../assets/technologies/graphql.svg';
 import npm from '../../assets/technologies/npm.svg';
 import jest from '../../assets/technologies/jest.svg';
+import vscode from '../../assets/technologies/vscode.svg';
+import netlify from '../../assets/technologies/netlify.svg';
 
 const StyledStack = styled.div`
   display: flex;
@@ -83,6 +85,8 @@ const Stack = () => (
           <Icon src={webpack} height="70px" width="70px" />
           <Icon src={npm} height="70px" width="70px" />
           <Icon src={jest} height="70px" width="70px" />
+          <Icon src={netlify} height="70px" width="70px" />
+          <Icon src={vscode} height="70px" width="70px" />
         </StyledTechnologies>
       </StyledStackDivision>
     </StyledStack>

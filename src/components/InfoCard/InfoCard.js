@@ -89,14 +89,12 @@ const StyledBlogLink = styled.a`
     font-size:24px;
     text-decoration:none;
     transition: all .4s ease;
-    background: linear-gradient(to bottom, transparent 62%, #FFEB3B 0) center center/0% 75% no-repeat;
     padding: 0 12px 4px 12px;
     cursor: pointer;
     color: rgba(80, 89, 113, 0.7);
   &:hover {
     color: #007acc;
     transition: all .4s ease;
-    background-size: 100% 100%;
   }
 `
 const StlyedCompany = styled.span`
