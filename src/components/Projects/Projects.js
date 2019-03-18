@@ -23,6 +23,14 @@ const Projects = () => (
     </h1>
     <StyledProjects>
       <Project
+        title="peacebot.pro"
+        description="Portfolio website for Ukrainian based graphic designer"
+        github="https://github.com/d-ivashchuk/peacebot"
+        live="https://www.peacebot.pro/"
+      >
+        <Icon src={gatsby} height="50px" width="50px" />
+      </Project>
+      <Project
         title="irreg.io"
         description="SPA written in react that helps to learn irregularities of languages"
         github="https://github.com/d-ivashchuk/irregio-react"
